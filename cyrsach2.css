@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "AnonymousPro-Bold";
+  src: url(./AnonymousPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: "AnonymousPro-Regular";
+  src: url(./AnonymousPro-Regular.ttf);
+}
+
+.collection {
+  font-family: "Anonymous Pro";
+  font-size: 60px;
+  margin: 25px 0 24px 0;
+}
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: left;
+  margin-top: 10px;
+  font-family: "AnonymousPro-Regular";
+}
+h3 {
+  margin: 0;
+  text-align: left;
+  margin-top: 30px;
+  font-family: "AnonymousPro-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 2px solid #5b5e66;
+  padding: 20px 0 20px 0;
+}
+.Shapks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.Shapks ul {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  list-style: none;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  background-color: #121723;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-top: 1px;
+}
+
+.footer__logo img {
+  padding: 32px 0 32px 0;
+  height: 0 auto;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "AnonymousPro-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  gap: 24px;
+}
+
+.footer__links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_pict {
+  color: #c7c7c7;
+  text-align: center;
+  font-family: "AnonymousPro-Regular";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hr {
+  border: none;
+  border-top: 1px solid #c7c7c7;
+  width: 1300px;
+  margin-top: 10px;
+}
+
+.footer_picture {
+  padding-bottom: 21px;
+  padding-top: 21px;
+}
